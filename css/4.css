@@ -37,8 +37,8 @@ body {
 *
 */
 p{
-  color:green;
   font-style: normal;
+  font-size: 15px;
   }
 p.warning {
   font-weight: bold;
@@ -130,16 +130,29 @@ template {
 a{
   color:blue;
 }
-a:link{color:navy;}
+a:link{
+  color:green;
+  }
 a:visited{
-
-  color:orange;}
+  color:orange;
+  }
 a:hover {
   color:red;
    font-size:23px;
   outline: 0;
 }
-a:active{color:yellow;}
+a:active{
+  color:yellow;
+}
+
+#foo{
+  background: maroon;
+
+}
+#links {
+  background: blue;
+  color: white
+  }
 
 /* Text-level semantics
    ========================================================================== */
@@ -179,30 +192,45 @@ dfn {
 */
 
 h1{
-  color:blue;
+  color:purple;
   font-size:2em;
   font-family:Charcoal;
   margin:0.67em 0;
   background: white;
+  border: 1em solid black;
   padding : 0.5em;
-  border: 1px solid black;
   text-align: center;
 }
 
 
-h1 em {color:gray;
-font-size:0.5em;}
-h2{color:green;}
-h1:first-letter{font-size:200%;}
+h1 em {
+  color:black;
+  font-size:0.5em;}
+h2{
+  color:light-green;
+  font-size: 18px;}
 
-h3,h4,h5{}
+h1:first-letter{
+  font-size:24px;
+}
+
+h3,h4
+h5{
+  color:rgb(40%,40%,40%);
+}
+h6{
+  color:rgb(191,127,127);
+}
+small{
+  font-size: 0.8em;
+}
 
 /**
  * Address styling not present in IE 8/9.
  */
 
 mark {
-  background: #ff0;
+  background:maroon;
   color: #000;
 }
 
