@@ -45,7 +45,11 @@ font-style: italic;}
 p.urgent{color:red;}
 p.concern{ background:yellow;}
 
-
+#last-para {
+font-size: 2em;
+color:silver;
+font-weight:bold;
+}
 
 
 
@@ -163,16 +167,19 @@ dfn {
 */
 
 h1{
-  font-size: 2em;
-  font-family: Charcoal;
-  margin: 0.67em 0;
+  color:blue;
+  font-size:2em;
+  font-family:Charcoal;
+  margin:0.67em 0;
   background: white;
   padding : 0.5em;
   border: 1px solid black;
   text-align: center;
 }
 
-h1 {color:blue;}
+
+h1 em {color:gray;
+font-size:0.5em;}
 h2{color:green;}
 
 h3,h4,h5{}
