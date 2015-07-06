@@ -99,18 +99,6 @@ textarea {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -265,11 +253,13 @@ textarea {
     img {
         max-width: 100% !important;
     }
-
+    h1, h2, h3, h4, h5, h6 {color: gray; background: white; padding: 0.5em;
+    border: 1px solid black; font-family: Charcoal, sans-serif;}
     p,
-    h2,
+    h2 {background:gray;}
     h3 {
         orphans: 3;
+        background: gray;
         widows: 3;
     }
 
