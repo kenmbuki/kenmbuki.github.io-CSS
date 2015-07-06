@@ -36,27 +36,39 @@ body {
 *
 *
 */
-
+p{
+  color:green;
+  font-style: normal;
+  }
 p.warning {
-font-weight: bold;
-}
+  font-weight: bold;
+  }
 span.warning {
-font-style: italic;}
+  font-style: italic;
+  }
 p.urgent{color:red;}
-p.concern{ background:yellow;}
+p.concern{ background:yellow;
+  }
+p.dark{color:#333; !important; background:yellow}
 
 #last-para {
 font-size: 2em;
 color:silver;
 font-weight:bold;
+  }
+
+inline{
+  color:green;
 }
 
 
 
+article{}
+*.aside{
+  color:black;
+  background:silver;
 
-
-article,
-aside,
+  }
 details,
 figcaption,
 figure,
